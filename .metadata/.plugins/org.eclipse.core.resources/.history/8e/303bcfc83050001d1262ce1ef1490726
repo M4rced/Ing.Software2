@@ -1,0 +1,6 @@
+package com.mybudget.personalbudget.dto;
+
+public final class YearDTO {
+	
+	
+}

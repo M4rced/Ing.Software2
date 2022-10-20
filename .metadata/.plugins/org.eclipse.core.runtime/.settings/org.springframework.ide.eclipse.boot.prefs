@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=PersonalBudget_API
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.7.4
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Component that allows exposing the different access mechanisms to the application
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.mybudget.personalbudget
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=19
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=PersonalBudget_API
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.mybudget.personalbudget.adapter.init
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

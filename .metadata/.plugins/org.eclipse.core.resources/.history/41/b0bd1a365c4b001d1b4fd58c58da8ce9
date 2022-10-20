@@ -1,0 +1,5 @@
+package com.mybudget.personalbudget.domain;
+
+public class PersonDomain {
+
+}

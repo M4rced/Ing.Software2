@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mybudget.personalbudget</groupId>
+  <artifactId>PersonalBudget_Infrastructure</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>PersonalBudget_Infrastructure</name>
+  <description>Component that contains the adapters or access mechanisms to external sources such as databases, web services. files and others for the personal budget application.</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>19</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+   <dependencies>
+  		<dependency>
+		  	<groupId>com.mybudget.personalbudget</groupId>
+		  	<artifactId>PersonalBudget_Crosscutting</artifactId>
+		  	<version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  		<dependency>
+		  	<groupId>com.mybudget.personalbudget</groupId>
+		    <artifactId>PersonalBudget_Entity</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+    </dependencies>
+</project>
