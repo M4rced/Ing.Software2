@@ -1,7 +1,6 @@
 
-]
-java:S1144"*Remove this unused private "setId" method.(Öž«Î8¬‹™ ½0HïRMAJORZ
+s	java:S125""<This block of commented-out lines of code should be removed.(®Çô·ùÿÿÿÿ8ÒÏ†ÃÀ0H¨RMAJORZ
 CODE_SMELL
-£
-java:S1172"qRemove these unused method parameters "id", "idCard", "firstName", "middleName", "firstSurname", "secondSurname".(¯úŽ*8¬‹™ ½0HñRMAJORZ
+‹
+java:S1128"YRemove this unused import 'com.mybudget.personalbudget.domain.builder.YearDomainBuilder'.(ÍÑÊx8ì±¦Â¿0H«RMINORZ
 CODE_SMELL

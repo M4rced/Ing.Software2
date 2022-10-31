@@ -1,13 +1,13 @@
 
-¼
-java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬ä—œûÿÿÿÿ8ê¢À¢¿0H§RCRITICALZ
-CODE_SMELL
 ·
-java:S1186?"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÅÖœë8ê¢À¢¿0H©RCRITICALZ
-CODE_SMELL
-a
-java:S11724")Remove this unused method parameter "id".(¬ä—œûÿÿÿÿ8ê¢À¢¿0H«RMAJORZ
+java:S1186?"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÅÖœë8ê¢À¢¿0H¢RCRITICALZ
 CODE_SMELL
 `
-java:S1172?"-Remove this unused method parameter "idCard".(ÅÖœë8ê¢À¢¿0H­RMAJORZ
+java:S1172?"-Remove this unused method parameter "idCard".(ÅÖœë8ê¢À¢¿0H¤RMAJORZ
+CODE_SMELL
+a
+java:S11724")Remove this unused method parameter "id".(¬ä—œûÿÿÿÿ8ê¢À¢¿0H¦RMAJORZ
+CODE_SMELL
+¼
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬ä—œûÿÿÿÿ8ê¢À¢¿0H¨RCRITICALZ
 CODE_SMELL

@@ -1,0 +1,46 @@
+package com.mybudget.personalbudget.domain;
+
+import java.util.UUID;
+
+public final class YearDomain {
+	
+	private UUID id;
+	private int year;
+	
+	private YearDomain(final UUID id,final int year) {
+		setId(id);
+		setYear(year);
+	}
+	
+	public static YearDomain build(final UUID id,final int year) {
+		return new YearDomain(id, year);
+	}
+	
+	private final void setId(final UUID id) {
+		this.id = (id == null) ? UUID.randomUUID() : id;
+	}
+	
+	private final void setYear(final int year) {
+		this.year = year;
+	}
+
+	public final UUID getId() {
+		return id;
+	}
+
+	public final int getYear() {
+		return year;
+	}
+	
+	//public static void main(String[] args) {
+		//UUID miUUID = UUID.randomUUID();
+		//System.out.println(miUUID);
+		
+		//String miUIDString = miUUID.toString();
+		//System.out.println(miUIDString); 
+		
+		//UUID otroUID = UUID.fromString(miUIDString.replace("0","z"));
+		//System.out.println(otroUID);
+}
+	
+

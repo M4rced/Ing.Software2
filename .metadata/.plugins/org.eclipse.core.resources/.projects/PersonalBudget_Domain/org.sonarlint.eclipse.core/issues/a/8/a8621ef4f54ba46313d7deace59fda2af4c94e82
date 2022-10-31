@@ -1,0 +1,21 @@
+
+h
+java:S1144T"5Remove this unused private "getSecondSurname" method.(õøı8™ÉÚÂ0HèRMAJORZ
+CODE_SMELL
+]
+java:S1144H"1Remove this unused private "getFirstname" method.(ß‡ˆH¶RMAJORZ
+CODE_SMELL
+V
+java:S1144@"*Remove this unused private "getId" method.(óÜì‡H²RMAJORZ
+CODE_SMELL
+_
+java:S1144D".Remove this unused private "getIdCard" method.(«Â×ÆüÿÿÿÿH¸RMAJORZ
+CODE_SMELL
+s	java:S125#"<This block of commented-out lines of code should be removed.(°ü‚ÿÿÿÿÿ8¡·áÚÂ0HŠRMAJORZ
+CODE_SMELL
+c
+java:S1144L"2Remove this unused private "getMiddlename" method.(•ÂİãùÿÿÿÿH°RMAJORZ
+CODE_SMELL
+l
+java:S1144P"4Remove this unused private "getFirstSurname" method.(ÑÓ˜Åÿÿÿÿÿ8™ÉÚÂ0HæRMAJORZ
+CODE_SMELL

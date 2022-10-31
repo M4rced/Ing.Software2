@@ -1,0 +1,21 @@
+package com.mybudget.personalbudget.application.dtoassembler.implementation;
+
+import com.mybudget.personalbudget.application.dtoassembler.DTOAssembler;
+import com.mybudget.personalbudget.domain.YearDomain;
+import com.mybudget.personalbudget.dto.YearDTO;
+
+public final class YearDTOAssembler implements DTOAssembler<YearDTO, YearDomain> {
+
+	@Override
+	public YearDomain assemblerDomain(YearDTO dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public YearDTO assemblerDTO(YearDomain domain) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

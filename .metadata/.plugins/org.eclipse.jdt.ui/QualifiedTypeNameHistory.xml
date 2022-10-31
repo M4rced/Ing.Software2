@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="com.mybudget.personalbudget.domain.BudgetDomain"/>
+    <fullyQualifiedTypeName name="com.mybudget.personalbudget.domain.PersonDomain"/>
+    <fullyQualifiedTypeName name="com.mybudget.personalbudget.domain.builder.PersonDomainBuilder"/>
+    <fullyQualifiedTypeName name="com.mybudget.personalbudget.application.dtoassembler.DTOAssembler"/>
+    <fullyQualifiedTypeName name="com.mybudget.personalbudget.domain.YearDomain"/>
+    <fullyQualifiedTypeName name="com.mybudget.personalbudget.dto.YearDTO"/>
     <fullyQualifiedTypeName name="com.mybudget.personalbudget.domain.builder.YearDomainBuilder"/>
+    <fullyQualifiedTypeName name="com.mybudget.personalbudget.crosscutting.utils.UtilUUID"/>
 </qualifiedTypeNameHistroy>

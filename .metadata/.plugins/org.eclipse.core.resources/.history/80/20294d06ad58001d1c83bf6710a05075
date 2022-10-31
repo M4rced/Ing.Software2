@@ -1,0 +1,86 @@
+package com.mybudget.personalbudget.domain.builder;
+
+import java.util.UUID;
+
+import com.mybudget.personalbudget.crosscutting.utils.UtilUUID;
+import com.mybudget.personalbudget.domain.PersonDomain;
+
+public class PersonDomainBuilder {
+	//Esta es la clase que falya t genera el error en la clase PersonDomian
+	private UUID id;
+	private String idCard;
+	private String firstname;
+	private String middlename;
+	private String firstSurname;
+	private String secondSurname;
+	
+	private PersonDomainBuilder() {
+		setId(UtilUUID.DEFAULT_UUID);
+		setIdCard("");
+		setFirstname("");
+		setMiddlename("");
+		setFirstSurname("");
+		setSecondSurname("");
+	}
+	
+	public static final PersonDomainBuilder get() {
+		return new PersonDomainBuilder();
+	}
+	
+	public final PersonDomainBuilder setId(UUID id) {
+		this.id = (id == null)? UUID.randomUUID(): id;
+		return this;
+	}
+
+	private PersonDomainBuilder setIdCard(String idCard) {
+		this.idCard = idCard;
+		return this;
+	}
+
+	private PersonDomainBuilder setFirstname(String firstname) {
+		this.firstname = firstname;
+		return this;
+	}
+
+	private PersonDomainBuilder setMiddlename(String middlename) {
+		this.middlename = middlename;
+		return this;
+	}
+
+	private final void setFirstSurname(String firstSurname) {
+		this.firstSurname = firstSurname;
+	}
+
+	private final void setSecondSurname(String secondSurname) {
+		this.secondSurname = secondSurname;
+	}
+
+	private UUID getId() {
+		return id;
+	}
+
+	private String getIdCard() {
+		return idCard;
+	}
+
+	private String getFirstname() {
+		return firstname;
+	}
+
+	private String getMiddlename() {
+		return middlename;
+	}
+	
+	private final String getFirstSurname() {
+		return firstSurname;
+	}
+
+	private final String getSecondSurname() {
+		return secondSurname;
+	}
+
+	public PersonDomain build() {
+		return PersonDomain.build(id, idCard, firstname, middlename, firstSurname, secondSurname);
+	}
+	
+}

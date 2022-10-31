@@ -1,0 +1,17 @@
+package com.mybudget.personalbudget.crosscutting.utils;
+
+import java.util.UUID;
+
+public final class UtilUUID {
+	
+	public static final String DEFAULT_UUID_STRING = "";
+	
+	private UtilUUID() {
+		super();
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(UUID.randomUUID());
+	}
+	
+}
